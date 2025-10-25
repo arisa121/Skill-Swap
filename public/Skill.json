@@ -1,0 +1,74 @@
+[
+  {
+    "skillId": 1,
+    "skillName": "Beginner Guitar Lessons",
+    "providerName": "Alex Martin",
+    "providerEmail": "alex@skillswap.com",
+    "price": 20,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Acoustic guitar classes for complete beginners.",
+    "image": "https://i.postimg.cc/c4244Mk3/franciele-da-silva-5u-H7y-Bw4MNI-unsplash.jpg",
+    "category": "Music"
+  },
+  {
+    "skillId": 2,
+    "skillName": "Spoken English Practice",
+    "providerName": "Sara Hossain",
+    "providerEmail": "sara@skillswap.com",
+    "price": 10,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "Conversational English sessions for non-native speakers.",
+    "image": "https://i.postimg.cc/V6y86xTD/ways-to-practice-English-and-speak-in-English-like-a-native-English-speaker.webp",
+    "category": "Language"
+  },
+  {
+    "skillId": 3,
+    "skillName": "Beginner Yoga",
+    "providerName": "Rafi Ahmed",
+    "providerEmail": "rafi@skillswap.com",
+    "price": 12,
+    "rating": 4.7,
+    "slotsAvailable": 6,
+    "description": "Basic yoga & breathing techniques.",
+    "image": "https://i.postimg.cc/SRL3F4Pj/vitaly-gariev-s6Xe-Ryp3IQY-unsplash.jpg",
+    "category": "Fitness"
+  },
+  {
+    "skillId": 4,
+    "skillName": "Intro to HTML & CSS",
+    "providerName": "Nadia Karim",
+    "providerEmail": "nadia@skillswap.com",
+    "price": 15,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Hands-on frontend basics for beginners.",
+    "image": "https://i.postimg.cc/ZYH8hpCg/5396030-f3ee-5.webp",
+    "category": "Coding"
+  },
+  {
+    "skillId": 5,
+    "skillName": "Portrait Photography Basics",
+    "providerName": "Samir Rahman",
+    "providerEmail": "samir@skillswap.com",
+    "price": 25,
+    "rating": 4.5,
+    "slotsAvailable": 2,
+    "description": "Learn portrait composition and lighting.",
+    "image": "https://i.postimg.cc/j22LTW1T/outdoor-portrait-photography-113.webp",
+    "category": "Photography"
+  },
+  {
+    "skillId": 6,
+    "skillName": "Basic Cooking Skills",
+    "providerName": "Mira Sultana",
+    "providerEmail": "mira@skillswap.com",
+    "price": 18,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Learn essential cooking techniques for daily meals.",
+    "image": "https://i.postimg.cc/Gt4hNWBp/empowering-kids-with-essential-basic-cooking-skills.webp",
+    "category": "Cooking"
+  }
+]

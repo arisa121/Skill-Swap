@@ -35,35 +35,37 @@ export default function HeroSlider() {
   ];
 
   return (
-    <div className="w-full h-[70vh]">
+    <div className="w-full h-[65vh] sm:h-[60vh] flex flex-col items-center justify-center bg-gray-50 px-4 sm:px-6 md:px-10 lg:px-20">
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
-        navigation
+        modules={[Pagination, Autoplay]}
+        
         pagination={{ clickable: true }}
         autoplay={{ delay: 4000 }}
         loop
-        className="h-full"
+        className="w-full h-full"
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <div className="flex flex-col md:flex-row items-center justify-between px-10 md:px-20 h-full bg-gray-50">
+            <div className="flex flex-col md:flex-row items-center justify-between h-full md:gap-10">
               {/* Text Section */}
-              <div className="w-full md:w-1/2 space-y-4">
-                <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+              <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
                   {slide.title}
                 </h1>
-                <h2 className="text-3xl font-semibold text-indigo-600">
+                <h2 className="text-2xl sm:text-3xl md:text-3xl font-semibold text-indigo-600">
                   {slide.subtitle}
                 </h2>
-                <p className="text-gray-600 text-lg">{slide.description}</p>
+                <p className="text-base sm:text-lg md:text-lg text-gray-600">
+                  {slide.description}
+                </p>
               </div>
 
               {/* Image Section */}
-              <div className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
+              <div className="w-full md:w-1/2 flex justify-center md:mt-0">
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="w-[80%] md:w-[70%] object-contain"
+                  className="w-[90%] sm:w-[85%] md:w-[70%] object-contain rounded-lg shadow-lg"
                 />
               </div>
             </div>

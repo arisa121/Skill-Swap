@@ -23,10 +23,10 @@ const Login = () => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      alert("Log in Successful");
+      toast.success("Log in Successful");
       navigate(from, { replace: true });
     } catch (error) {
-      alert(error.message);
+      toast.error(error.message);
     }
   };
   // ✅ Google Signup/Login
@@ -37,7 +37,6 @@ const Login = () => {
         navigate("/");
       })
       .catch((error) => {
-        console.error(error);
         toast.error(error.message);
       });
   };
@@ -51,8 +50,8 @@ const Login = () => {
       <div className="flex justify-center items-center h-screen">
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
           <h2 className="font-semibold text-2xl text-center mt-2">LOGIN</h2>
-          <form className="card-body">
-            <fieldset onSubmit={handleEmailLogin} className="fieldset">
+          <form onSubmit={handleEmailLogin} className="card-body">
+            
               <label className="label">Email</label>
               <input
                 type="email"
@@ -89,7 +88,7 @@ const Login = () => {
               <button type="submit" className="btn btn-neutral">
                 Login
               </button>
-            </fieldset>
+           
           </form>
           <h4 className="text-center">Or Login with</h4>
 
