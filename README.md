@@ -35,7 +35,7 @@ The purpose of this project is to create a platform where users can:
 
 | Package | Purpose |
 |----------|----------|
-| **react-router-dom** | Routing between pages |
+| **react-router** | Routing between pages |
 | **firebase** | Authentication & backend integration |
 | **react-firebase-hooks** | Simplify Firebase authentication logic |
 | **tailwindcss / daisyui** | UI design & styling |

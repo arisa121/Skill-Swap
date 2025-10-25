@@ -1,6 +1,6 @@
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import React, { useEffect, useState } from "react";
-import logo from "../../assets/website-logo.webp";
+import logo from "../../assets/images (4).jpg";
 import { Link, NavLink } from "react-router";
 import { auth } from "../../firebase.init";
 import toast from "react-hot-toast";
@@ -69,7 +69,7 @@ const Navbar = () => {
             )}
           </ul>
         </div>
-        <img className="w-20 h-20 ml-2" src={logo} alt="Logo" />
+        <img className="w-20 h-20 ml-2 bg-gray-200" src={logo} alt="Logo" />
       </div>
 
       {/* Navbar center: Menu for large screens */}
@@ -99,7 +99,7 @@ const Navbar = () => {
           </>
         ) : (
           <>
-            {/* 🧑‍💻 User Avatar with Hover Name */}
+            {/* User Avatar with Hover Name */}
             <div className="relative group">
               <img
                 src={
@@ -109,7 +109,7 @@ const Navbar = () => {
                 alt="User Avatar"
                 className="w-10 h-10 rounded-full object-cover border-2 border-indigo-500 cursor-pointer"
               />
-              {/* Tooltip */}
+             
               <div className="absolute right-0 mt-12 -translate-x-1/2 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">
                 <div className="bg-gray-800 text-white text-sm px-3 py-1 rounded-lg shadow-lg whitespace-nowrap">
                   {user.displayName || "User"}

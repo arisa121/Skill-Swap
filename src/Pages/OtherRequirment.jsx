@@ -12,7 +12,7 @@ const OtherRequirment = () => {
         <div className="card bg-base-100 shadow-lg hover:shadow-2xl transition-all duration-300 animate__animated animate__fadeInUp hover:scale-105">
           <div className="card-body items-center text-center">
             <img
-              src="https://i.postimg.cc/pd4cM4f1/teacher.png"
+              src="https://i.postimg.cc/C1rXfPSc/images-2.jpg"
               alt="Learn from People"
               className="w-20 h-20 mb-4"
             />
@@ -30,7 +30,7 @@ const OtherRequirment = () => {
         <div className="card bg-base-100 shadow-lg hover:shadow-2xl transition-all duration-300 animate__animated animate__fadeInUp animate__delay-1s hover:scale-105">
           <div className="card-body items-center text-center">
             <img
-              src="https://i.postimg.cc/Bv1S4NmD/exchange.png"
+              src="https://i.postimg.cc/B689N9Yf/images-3.jpg"
               alt="Exchange Skills"
               className="w-20 h-20 mb-4"
             />
@@ -46,7 +46,7 @@ const OtherRequirment = () => {
         <div className="card bg-base-100 shadow-lg hover:shadow-2xl transition-all duration-300 animate__animated animate__fadeInUp animate__delay-2s hover:scale-105">
           <div className="card-body items-center text-center">
             <img
-              src="https://i.postimg.cc/fRydgLyR/schedule.png"
+              src="https://i.postimg.cc/Qx3wKT3V/download-13.jpg"
               alt="Flexible Schedule"
               className="w-20 h-20 mb-4"
             />
