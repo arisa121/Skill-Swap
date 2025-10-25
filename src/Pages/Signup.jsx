@@ -9,6 +9,7 @@ import app from "../firebase.init";
 import { FiEyeOff } from "react-icons/fi";
 import { FaEye } from "react-icons/fa";
 import toast from "react-hot-toast";
+
 const auth = getAuth(app);
 
 const Signup = () => {
@@ -47,7 +48,7 @@ const Signup = () => {
         });
       })
       .catch((error) => {
-        console.error(error);
+        // console.error(error);
         toast.error(error.message);
         setError(error.message);
       });
